@@ -1,0 +1,3 @@
+# Following modules are used for testing the Django and NLP backend API
+
+#tavern==0.22.1

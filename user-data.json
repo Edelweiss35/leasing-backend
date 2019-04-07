@@ -1,0 +1,18 @@
+[
+{
+  "model": "leasingauth.leasinguser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$8Hp3R1ncerdM$M4Lwr9IYEhz/ejZLidf0V1PITRUPkP7YNn6kvI6ZZvs=",
+    "last_login": null,
+    "email": "zack@gmail.com",
+    "username": "zack",
+    "first_name": null,
+    "last_name": null,
+    "is_active": true,
+    "is_staff": true,
+    "is_admin": true,
+    "date_joined": "2019-02-15T06:55:28.819Z"
+  }
+}
+]

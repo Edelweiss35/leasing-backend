@@ -1,0 +1,19 @@
+# These are the requirements related to Django backend API
+
+Django
+django-cors-headers
+django-extensions
+django-filter
+djangorestframework
+flake8
+ipython
+Markdown
+pep8
+pyflakes
+rope
+psycopg2
+django-storages
+boto3
+coreapi
+drf-writable-nested
+selenium
