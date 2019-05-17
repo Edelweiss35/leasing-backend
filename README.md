@@ -11,7 +11,7 @@
 $ cd ~/
 $ virtualenv -p python2 --no-site-packages env_leasing
 $ cd env_leasing
-$ git clone git@gitlab.com:zcm/DjangoAPI.git
+$ git clone ...
 $ cd DjangoAPI
 $ source ../bin/activate
 $ pip install -r requirements.txt
