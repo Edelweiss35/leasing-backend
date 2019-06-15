@@ -1,7 +1,12 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
 
-
+from nltk.corpus import stopwords
+from nltk.stem.wordnet import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+import string
+from nltk import ngrams
+from math import log
 
 
 class ClauseContentReducer:
