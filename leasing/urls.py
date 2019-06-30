@@ -21,4 +21,11 @@ from django.conf import settings
 import leasingapi.urls
 
 
-
+urlpatterns = [
+    url(r'^', admin.site.urls),
+    url(r'^api-auth/', include('rest_framework.urls')),
+    url(r'^api-docs/', include_docs_urls(title='Leasing API Docs')),
+    url(r'^api/v1/', include('leasingapi.urls', namespace="leasingapi")),
+    url(r'^email/', include('leasingmail.urls'))
+    # ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
