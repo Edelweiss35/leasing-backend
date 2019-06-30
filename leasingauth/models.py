@@ -1,14 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.db import models
-from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
-from django.utils import timezone
-from django.dispatch import receiver
-from django.db.models.signals import post_save
-from rest_framework.authtoken.models import Token
-from django.core.exceptions import ValidationError
-from leasingapi.models import ClientSetting, _create_short_hash
 
 # Custom authentication models for leasing
 # begin here
