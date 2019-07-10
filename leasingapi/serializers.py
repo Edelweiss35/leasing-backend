@@ -1,17 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from leasingauth.models import (LeasingUser, LeasingClient,
-                                LeasingClientInviteToken)
-from leasingapi.models import ClientSetting
-from rest_framework.serializers import (ModelSerializer, SerializerMethodField,
-                                        CreateOnlyDefault, CurrentUserDefault)
-from rest_framework.authtoken.models import Token
-from leasingapi.models import (DocumentUpload, LegalPosition,
-                               ExportResult, KeyText, Description)
-from drf_writable_nested import WritableNestedModelSerializer, NestedCreateMixin
-from rest_framework import serializers
-from django.core.exceptions import ValidationError
 
 
 class LeasingUserInfoSerializer(ModelSerializer):
