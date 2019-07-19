@@ -1,15 +1,4 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
 
-# nltk.download('stopwords')
-# nltk.download('wordnet')
-
-from nltk.corpus import stopwords
-from nltk.stem.wordnet import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from leasingapi.models import LegalPosition
-from nltk import ngrams
-import string
 
 
 class LegalPositionPreprocessor:
