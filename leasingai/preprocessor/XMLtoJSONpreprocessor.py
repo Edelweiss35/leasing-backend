@@ -1,9 +1,3 @@
-#! /usr/bin/python
-# -*- coding: utf-8 -*-
-
-import string
-from nltk.corpus import stopwords
-from nltk.stem.wordnet import WordNetLemmatizer
 
 
 class Word:
