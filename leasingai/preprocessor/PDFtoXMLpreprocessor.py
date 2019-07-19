@@ -1,4 +1,15 @@
+#! /usr/bin/python
+# -*- coding:utf-8 -*-
 
+import os
+from leasingapi.models import DocumentUpload
+from tempfile import NamedTemporaryFile
+import subprocess
+from PyPDF2 import PdfFileReader
+from shlex import split
+import threading
+from lxml import etree
+import io
 
 
 class PDFtoXML:
